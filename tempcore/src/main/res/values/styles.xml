@@ -1,0 +1,85 @@
+<resources>
+    <!--<style name="TempAppTheme" parent="AppTheme"/>-->
+    <style name="TempAppTheme" parent="LFAppTheme.Base">
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="LFAppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="android:typeface">serif</item>-->
+        <item name="colorAccent">@color/temp_colorAccent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/temp_baseTextColor_565656</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!--<item name="actionBarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
+        <!--<item name="android:actionBarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
+
+    </style>
+   <!-- <style name="LFAppTheme">
+
+    </style>-->
+    <!--<style name="LFAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/temp_baseTextColor_565656</item>
+    </style>-->
+    <!-- Base application theme. -->
+    <style name="temp_dialog_theme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--item RadioButton or CheckBox color-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/temp_pink_color</item>
+        <!--item text color-->
+        <item name="textColorAlertDialogListItem">@android:color/black</item>
+        <!--buttons color-->
+        <item name="colorAccent">@color/temp_pink_color</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@color/temp_black</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/temp_message_dialog_bg</item>
+    </style>
+    <style name="customDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/customDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="temp_custom_dialog_style" parent="@style/CustomProgressDialog">
+        <item name="android:windowAnimationStyle">@style/popwin_anim_style</item>
+    </style>
+    <!-- 广告播放器-->
+    <style name="gallery_point_style" >
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:layout_gravity">center|bottom</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:background">#77000000</item>
+    </style>
+    <style name="MenuDialog" parent="@android:style/Theme.Dialog">
+        <!--背景颜色及透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Widget"></style>
+    <style name="Widget.AoXinTong.Blue.ProgressBar" parent="Widget">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/temp_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/temp_progress</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+    <!--程序异常提示框-->
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat" />
+
+</resources>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    >
+
+    <com.lf.tempcore.tempModule.previewComponments.HackyViewPager
+        android:id="@+id/bi_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+    </com.lf.tempcore.tempModule.previewComponments.HackyViewPager>
+
+
+    <RelativeLayout
+        android:id="@+id/addrelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:id="@+id/image_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff"/>
+        <!--<LinearLayout-->
+            <!--android:id="@+id/AddLayout"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!-->-->
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--android:id="@+id/moveView"-->
+            <!--android:layout_width="5dp"-->
+            <!--android:layout_height="5dp"-->
+            <!--android:background="@android:color/holo_red_dark"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--/>-->
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

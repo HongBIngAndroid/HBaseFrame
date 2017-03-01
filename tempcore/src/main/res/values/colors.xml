@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="temp_transparent">#00000000</color>
+    <!-- app主题颜色配置-->
+    <color name="colorPrimary">#164E87</color>
+    <color name="colorPrimaryDark">#164E87</color>
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="temp_colorPrimary">#164E87</color>
+    <color name="temp_colorPrimaryDark">#164E87</color>
+    <color name="temp_actionbarColor">#27AC39</color>
+    <color name="temp_baseTextColor_AAAAAA">#AAAAAA</color>
+    <color name="temp_baseTextColor_272727">#272727</color>
+    <color name="temp_baseTextColor_565656">#565656</color>
+    <color name="temp_baseLineColor_e5e5e5">#e5e5e5</color>
+    <color name="temp_base_color_transparent">#00000000</color>
+    <color name="temp_base_color_half_transparent_white">#4fffffff</color>
+    <color name="temp_base_color_half_transparent_black">#5f000000</color>
+
+    <color name="temp_pink_color">#FF4000</color>
+
+    <!-- pulltorefreshView color-->
+    <color name="temp_white">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="temp_black">#000000</color>
+    <color name="temp_gray">#AAAA</color>
+
+    <color name="temp_colorAccent">#2d5481</color>
+
+    <color name="temp_white_color">#FFFFFF</color>
+
+    <!--dialog-->
+    <color name="temp_dialog_positive_button_bg">#FF900A</color>
+    <color name="temp_dialog_negative_button_bg">#ECECEC</color>
+
+    <color name="color_FF6D00">#FF6D00</color>
+    <color name="color_ffeed5">#ffeed5</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_343434">#434343</color>
+    <color name="color_39b9aa">#39b9aa</color>
+    <color name="color_3E3E3E">#3E3E3E</color>
+    <!-- pulltorefreshView color-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#AAAA</color>
+
+
+
+</resources>

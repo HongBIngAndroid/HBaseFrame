@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightColorCircularProgressDrawable" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColors">@array/progress_colors_light</item>
+    </style>
+    <style name="LightInColorCircularProgressView" >
+        <item name="pv_autostart">false</item>
+        <item name="pv_circular">true</item>
+        <item name="pv_progressMode">indeterminate</item>
+        <item name="pv_progressStyle">@style/LightInCircularProgressDrawable</item>
+    </style>
+    <style name="LightInCircularProgressDrawable" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_strokeColors">@array/progress_colors_light</item>
+        <item name="cpd_inAnimDuration">800</item>
+        <item name="cpd_inStepPercent">0.6</item>
+        <item name="cpd_strokeColor">@color/temp_colorPrimary</item>
+        <item name="cpd_inStepColors">@array/in_colors_light</item>
+        <item name="cpd_outAnimDuration">0</item>
+    </style>
+    <array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+</resources>

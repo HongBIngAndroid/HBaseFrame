@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:descendantFocusability="beforeDescendants"
+             android:background="#40000000">
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/pop_take_pic_layout"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="94px">
+            <ImageView
+                android:paddingLeft="195px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/temp_take_pic_icon"/>
+
+            <TextView
+                android:textSize="15sp"
+                android:paddingLeft="60px"
+                android:textColor="#454545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="拍照上传"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#ebebeb"/>
+        <LinearLayout
+            android:id="@+id/pop_choose_pic_layout"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="94px">
+            <ImageView
+                android:paddingLeft="195px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/temp_shose_pic_icon"/>
+
+            <TextView
+                android:textSize="15sp"
+                android:paddingLeft="60px"
+                android:textColor="#454545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="从相册中选择"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#ebebeb"/>
+        <LinearLayout
+            android:id="@+id/pop_quit_layout"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="94px">
+            <ImageView
+                android:paddingLeft="195px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/temp_cancle_icon"/>
+
+            <TextView
+                android:textSize="15sp"
+                android:paddingLeft="60px"
+                android:textColor="#454545"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="取消"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#ebebeb"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

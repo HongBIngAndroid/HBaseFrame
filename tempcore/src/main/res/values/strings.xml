@@ -1,0 +1,12 @@
+<resources>
+    <string name="temp_loading">正在努力加载,请稍候...</string>
+    <string name="app_name">口腔派</string>
+    <!--程序异常提示-->
+    <string name="crash_toast_text">程序异常,已通过报告的把异常信息发送给开发者进行修复 !</string>
+    <string name="crash_dialog_title">异常</string>
+     <string name="crash_dialog_text">程序异常停止.请帮助我们把异常报告发送给开发者进行修复,只需要点击 确定.</string>
+    <string name="crash_dialog_comment_prompt">添加您对于这个异常的描述:</string>
+    <string name="crash_dialog_ok_toast">感谢 !</string>
+    <string name="crash_user_email_label">填写您的邮箱，以便给您提供更好的服务</string>
+
+</resources>
